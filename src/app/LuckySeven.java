@@ -43,13 +43,13 @@ public class LuckySeven {
 			}
 		}
         if (luckySeven == 1) {
-            System.out.println("Voitit 1€!");
+            System.out.println("Voitit 2€!");
             wallet += 1;
         } else if (luckySeven == 2) {
-            System.out.println("Voitit 5€!");
+            System.out.println("Voitit 10€!");
             wallet += 5;
         } else if (luckySeven == 3) {
-            System.out.println("Voitit 10€!");
+            System.out.println("Voitit 20€!");
             wallet += 10;
         } else {
             System.out.println("Ei voittoa! :(");
