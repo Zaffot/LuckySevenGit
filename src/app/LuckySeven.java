@@ -21,6 +21,7 @@ public class LuckySeven {
 		System.out.println("Montako euroa haluat lisätä pelitilille?");
 		int money = in.nextInt();
 		wallet += money;
+		// Pelaajan tulee lisätä rahaa tilille, jotta pääsee pelaamaan.
 		
 		while (true) {
 			System.out.println("Pelaa peliä 1€ kierros, kirjoita 'n' lopetaaksesi peli");
@@ -55,7 +56,7 @@ public class LuckySeven {
         }
 		} else {
         System.out.println("Voi rähmä rahat loppui!");
-        break; // Exit the loop if the wallet is empty
+        break; //Poistuu loopista jos "raha" loppuu.
     	}
 
 			System.out.print("Uusi saldo pelitilillä: " + wallet + " euroa. ");
@@ -63,7 +64,7 @@ public class LuckySeven {
 			String choice = in.nextLine();
 
 		if (choice.equals("n")) {
-        break; // Exit the loop if the user enters 'n'
+        break; // Poistuu loopista jos käyttjä kirjotittaa'n' -oldschool ;D
 		}
 		}
 
