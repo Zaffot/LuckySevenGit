@@ -12,7 +12,7 @@ public class LuckySeven {
 		System.out.println("Lucky seven - oletko onnekkalla päällä?");
 		System.out.println("Miten pelataan? 1.Talleta rahat pelitille");
 		System.out.println("2. Jokainen kierros maksaa 1 euron.");
-		System.out.println("Voitot: yksi kpl 7 voitat 1€ | kaksi kpl 7 voitat 5€ ja kolme kpl 7 voitat 10€ ");
+		System.out.println("Voitot: yksi kpl 7 voitat 2€ | kaksi kpl 7 voitat 10€ ja kolme kpl 7 voitat 20€ ");
 		System.out.println();
 		int wallet = 0;
 		
